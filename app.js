@@ -15,6 +15,9 @@ ctx.lineWidth = 2.5;
 ctx.fillStyle = "white";
 ctx.fillRect(0, 0, canvas.width, canvas.height);
 
+ctx.strokeStyle = "black";
+ctx.fillStyle = "black";
+
 let painting = false;
 let filling = false;
 
